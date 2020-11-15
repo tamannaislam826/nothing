@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-color: #f0f2f4;
+
+}
+
+.top-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header ul li {
+    /* margin-left: 40px; */
+    color: #424242;
+    font-size: 16px;
+    display: flex;
+}
+
+.top-header ul li i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.fb
+{
+   
+    color: #1287bf;
+    font-size: 22px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #de2b24;
+    border-color: #dc3545;
+    
+}
+.btn-custom{
+    color: #ffff !important;
+    padding: 7px 25px !important;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.banner h1{
+    color: #fff;
+    font-weight: 300px;
+    font-size: 40px;
+
+}
+.banner p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300px;
+
+}
+.btn-custom-two{
+background:  #de2b24;
+font-size: 22px;
+color: #fff;
+padding: 10px 25px;
+text-transform:uppercase ;
+}
+.btn-custom-two :hover{
+    color: #fff;
+    background-color:#ec1912; ;
+
+}
+.hg{
+    min-height: 85vh;
+}
+.heading{
+
+}
+.heading h1{
+    text-transform: capitalize;
+
+}
+.heading p{
+
+
+}
+.heading ::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    height: 5px;
+    width: 0px;
+    background-color: black;
+    transform: translateX(-50%);
+    transition: .4s all ease-in-out;
+
+
+}
+.about :hover .heading ::before{
+    width: 50px;
+
+}
